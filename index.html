@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>DSCD 601: Programming for Data Scientists I</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <link rel="icon" type="image/png" href="assets/img/icon.jpeg"> 
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- <link href="./assets/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" /> -->
+    <link href="./assets/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+    <script src="./assets/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="./assets/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+    <script src="./assets/bootstrap-3.3.5/shim/respond.min.js"></script>
+
+    <script src="./assets/header-attrs-2.14/header-attrs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="./assets/js/app.js"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style type="text/css">
+        body {color: black;}
+        h5, #logo-text {color: rgb(21, 61, 112);}
+        #logo-text {font-size: x-large;}
+        .tool-logos {max-width: 100%; height: auto; overflow:hidden; text-align: center;}
+        /* ul {padding: 0;} */
+        ul {margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0;}
+        table {width: 100%; border-collapse: collapse;}
+        th, td {border: 1px solid black; padding: 1px 10px 1px 10px; text-align: left;} 
+        th {background-color: #f2f2f2;}
+        #schedule {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <div class="container main-container container-fluid" id="main">
+        <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div style="margin-bottom:20px;"></div>
+                <div class="col-md-3"><img src="./assets/img/UG-CS-logo.png"/></div>
+                <div class="col-md-9"><strong id="logo-text">DSCD 601: Programming for Data Scientists I</strong></div>
+            </div>
+        </div>
+
+    <div class="row">
+     <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div style="margin-bottom:110px;"></div>
+        <div class="tool-logos">
+            <img src="./assets/img/tools-logo1.png" width="780px" height="auto"/>
+        </div>
+
+        <div style="margin-bottom:40px;"></div>
+        <div class="">
+            <div class="">
+                <h4>Course Description</h4>
+                <p class="text-justify">
+                This course introduces Python, a programming language widely regarded as the standard for data scientists. It aims to cover the fundamentals 
+                of Python programming, along with data exploration and visualisation using Python. The course also covers the design, analysis, and 
+                implementation of core data structures in Python, as well as common algorithms that operate on those data structures. Key data science tools, 
+                including NumPy, SciPy, Pandas, Matplotlib, Seaborn, Vega-Altair, and Scikit-learn, will be introduced. Students will use Jupyter Notebooks 
+                for interactive Python programming and Visual Studio Code or PyCharm for code editing.
+                <hr>
+            </p> 
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <h4>Learning Outcomes</h4>
+                <p class="text-justify" style="margin-bottom: 0px;">
+                This class emphasises <strong>practical skills for real-world data science applications</strong>. It is expected that at the end of this course, students will be able<br>
+                <ul>
+                    <li>to programme effectively in Python for scientific and statistical data analysis projects;</li>
+                    <li>to leverage open-source libraries and tools to enhance their skills;</li>
+                    <li>to select and implement Python workflows that suit their project needs; and</li>
+                    <li>to contribute and participate in the worldwide Python and data science community.</li>
+                </ul>
+                </p>
+                <hr>
+            </div>
+        </div>
+        
+        <div class=""> 
+            <div class="">
+                <h4>Instructors</h4>
+                <p class="text-justify">
+                Clifford Broni-Bediako (Email: <a href="mailto:bronibbc@yahoo.co.uk">bronibbc@yahoo.co.uk</a>) and 
+                Michael Soli (Email: <a href="mailto:msoli@ug.edu.gh">msoli@ug.edu.gh</a>/<a href="mailto:agbotettey@gmail.com">agbotettey@gmail.com</a>)
+                <hr>
+            </p> 
+            </div>
+        </div>
+        
+        <div class="">
+            <div class="">
+                <h4>Prerequisites</h4>
+                <p class="text-justify">
+                There are <strong>no prerequisites</strong> for this course; however, having some programming skills would be beneficial to students. 
+                Students are expected to 
+                know how to use a text editor and a terminal, as well as understand how computer programs work, etc. Students need access to a computer with a recent 
+                operating system of their choice for the course.
+                <hr>
+            </p> 
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <h4>Students Responsibilities & Professional Conduct</h4>
+                <p class="text-justify">
+                Students are expected to read the assigned materials before each scheduled class, attend and actively participate in discussions, complete 
+                assignments and projects on time, and seek help as soon as they encounter difficulties. Attendance will not be taken; therefore, 
+                you are expected to attend class regularly and be prepared to participate in the learning process and contribute to your group project. 
+                Students are expected to turn off their mobile phones and refrain from sending emails, texts, and other messages. Also, be respectful and 
+                courteous towards other students and the instructors.
+                </p> 
+                <hr>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <h4>Course Textbook</h4>
+                <p class="text-justify" style="margin-bottom: 0px;">
+                The course readings will rely on the following textbooks:
+                <ul>
+                    <li><strong>[MW]</strong> McKinney, W. (2022). <i>Python for Data Analysis, 3rd ed</i>. O'Reilly Media.</li>
+                    <li><strong>[LB]</strong> Lubanovic, B. (2019). <i>Introducing Python: Modern Computing in Simple Packages, 2nd ed</i>. O'Reilly Media. </li>
+                    <li><strong>[BE]</strong> Bressert, E. (2013). <i>SciPy and NumPy</i>. O'Reilly Media.</li>
+                    <li><strong>[UJ]</strong> Unpingco, J. (2021). <i>Python Programming for Data Analysis</i>. Springer Cham.</li>
+                </ul> 
+                </p> 
+                <hr>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <h4>Course Schedule</h4>
+                <table>
+                <thead>
+                    <tr><th id="schedule">Week</th><th>Topics</th><th style="width:25%;">Readings (see the textbooks)</th><th style="width:25%;">Remarks</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="4">Part 1: Python programming </td></tr>
+                    <tr>
+                        <td id="schedule">1</td>
+                        <td>Introducing Python language, tools, and setting up Python environment.</td>
+                        <td>MW, Chapter 1 </br> LB, Chapter 1</td>
+                        <td>Assignment 0 </br> (non-examinable)</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">2</td>
+                        <td>Syntax, data types, variables, reserved keywords,  operators, numbers, commenting, and control structures (loops and conditionals).</td>
+                        <td>MW, Chapter 2</br>LB, Chapters 2, 3, 4, &amp; 6</br>UJ, Chapter 1</td>
+                        <td>Assignment 1 released</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">3</td>
+                        <td>Data structures (containers): lists, tuples, sets, and dictionaries; handling basic text strings; and basic debugging with print().</td>
+                        <td>MW, Chapter 3</br>LB, Chapters 5, 7, &amp; 8</br>UJ, Chapter 1</td>
+                        <td>Assignment 2 is released </br> Assignment 1 is due </br> Project groups formed </td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">4</td>
+                        <td>Functions, generators, decorators, iterators, iterables, code readability, and docstrings.</td>
+                        <td>MW, Chapter 3</br>LB, Chapter 9</br>UJ, Chapter 1</td>
+                        <td>Assignment 3 is released </br> Assignment 2 is due</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">5</td>
+                        <td>Tabular (CSV, JSON, Excel) and text files handling; file directories; error handling (try and except, and assertion);
+                        challenging text strings (regular expressions, unicode, bytes); and date and time.</td>
+                        <td>MW, Chapters 6 &amp; 7.4</br>LB, Chapters 12, 13, &amp; 14</br>UJ, Chapters 1</td>
+                        <td>Assignment 4 is released </br> Assignment 3 is due </br> Project proposal is due </td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">6</td>
+                        <td>Object-Oriented Programming (OOP)</td>
+                        <td>LB, Chapter 10</br>UJ, Chapter 2</td>
+                        <td>Assignment 5 is released </br> Assignment 4 is due</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">7</td>
+                        <td>Modules and packages, unittest and doctest, advanced debugging with pdb and breakpoints, and measuring time complexity.</td>
+                        <td>LB, Chapter 11</br>UJ, Chapter 3</td>
+                        <td>Assignment 6 is released </br> Assignment 5 is due </br> Quiz 1</td>
+                    </tr>
+                    <tr><td colspan="4">Part 2: Python tools for data science</td></tr>
+                     <tr>
+                        <td id="schedule">8</td>
+                        <td>Numpy and SciPy for numerical computing</td>
+                        <td>MW, Chapter 6</br>LB, Chapters 16 &amp; 18</td>
+                        <td>Assignment 7 is released </br> Assignment 6 is due</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">9</td>
+                        <td>Data manipulation with Pandas (handling tabular files, missing data, duplicates, and outliers; merging, reshaping, filtering, etc.).</td>
+                        <td>MW, Chapter 4 &amp; Appendix A</br>LB, Chapter 22</br>BE, Chapters 2 &amp; 3</br>UJ, Chapter 4</td>
+                        <td>Assignment 8 is released </br> Assignment 7 is due</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">10</td>
+                        <td>Data visualisation with Matplotlib, Seaborn, Bokeh, Vega-Altair, and Holoviews.</td>
+                        <td>MW, Chapters 7 &amp; 8</br>LB, Chapter 22</br>UJ, Chapter 5</td>
+                        <td>Assignment 9 is released </br> Assignment 8 is due</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">11</td>
+                        <td>Data analysis with Pandas, statsmodels, and SciPy (descriptive statistics, correlation analysis, grouping, aggregation).</td>
+                        <td>MW, Chapters 10 &amp; 12</br>LB, Chapter 22</br>BE, Chapters 3</br>UJ, Chapter 5</td>
+                        <td>Assignment 10 is released </br> Assignment 9 is due</td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">12</td>
+                        <td>Scrape information from web pages: APIs, HTTP requests, JSON responses; Handling HTML, XML, and YAML data; BeautifulSoup for HTML data.</td>
+                        <td>MW, Chapter 9</br>UJ, Chapter 6</td>
+                        <td>Assignment 10 is due </br> Quiz 2 </td>
+                    </tr>
+                    <tr>
+                        <td id="schedule">13</td>
+                        <td>Statistical machine learning algorithms with Scikit-learn.</td>
+                        <td>MW, Chapter 12</br>BE, Chapter 4</td>
+                        <td>No Assignment/Quiz</td>
+                    </tr>
+                </tbody>
+                </table>
+                <hr>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <h4>Final Project</h4>
+                <p class="text-justify">              
+                The final project offers students the chance to practically apply their Python skills by extracting, transforming, and analysing a public 
+                dataset of their choice while working in teams to tackle a meaningful social or scientific question. Students will be randomly assigned 
+                to groups (3-5 students per team) in the third week of the class. <strong>Each group will prepare and submit a 1-page proposal</strong>. 
+                Once the proposal is approved, the team starts work and arranges a meeting with instructors to review progress. <strong>Each team will present their 
+                analysis and results, as well as submit a 3-page project report in the week after the last class</strong>.
+                </p>
+                <p class="text-justify">
+                The 1-page proposal should address the following: (1) the topic to be studied; (2) what is known of the topic; 
+                (3) why is the topic interesting, relevant, or important; (4) description of data to be used; (5) expected results and impact; and 
+                (6) how the project will be done (tools/methods to be used, project plan, and what each team member will do).
+                </p>
+                <p class="text-justify">
+                The final 3-page project report should address the following: (1) the topic that was studied; (2) what is known of the topic; 
+                (3) why is the topic interesting, relevant, or important; (4) description of the data used; (5) how the project was done (tools/methods that were used); 
+                (6) the results and societal impact; (7) what each team member did to complete the project; and (8) reflections of the project. 
+                </p>
+                <p class="text-justify" style="margin-bottom: 0px;">The final project will be examined based on the following criteria:</p>
+                <ul>
+                    <li>importance/relevance of the topic/research question (5%)</li>
+                    <li>dataset/task complexity (5%)</li>
+                    <li>code quality and reproducibility (40%)</li>
+                    <li>insightful data/results graphics (20%)</li>
+                    <li>final presentation and teamwork (15%)</li> 
+                    <li>project report (15%)</li>
+                </ul>
+                <p class="text-justify" style="margin-bottom: 0px;">Students can check the following GitHub repos to appreciate the kind of project expected from each team:</p>
+                <ul>
+                    <li><a href="https://github.com/michaelbaluja/ECE143_WI22_FinalProject_Group14">https://github.com/michaelbaluja/ECE143_WI22_FinalProject_Group14</a></li>
+                    <li><a href="https://github.com/ParamChordiya/ECE143-UCSD-GROUP-5">https://github.com/ParamChordiya/ECE143-UCSD-GROUP-5</a></li>
+                    <li><a href="https://github.com/TRBG/ECE-143-Project">https://github.com/TRBG/ECE-143-Project</a></li>
+                </ul>
+                <p class="text-justify" style="margin-bottom: 0px;">Publicly available datasets for research:</p>
+                <ul>
+                    <li><a href="https://archive.ics.uci.edu/">UC Irvine Machine Learning Repository</a></li>
+                    <li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a></li>
+                    <li><a href="https://www.kaggle.com/datasets?fileType=csv">Kaggle Datasets</a></li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="text-justify">
+                <h4>Grading Policy</h4>
+                <p>
+                There is <strong>no</strong> midterm or final exam for this course. The final week of the class is reserved for project presentations 
+                and the submission of project reports.
+                </p>
+                <p>The grading of this course will be a model: \(h(x_1, x_2, x_3, x_4) = 0.3x_1 + 0.2x_2 + 0.4x_3 + 0.1x_4\)</br>
+                where \(x_1\) is the 10-weekly assignments, \(x_2\) is the two quizzes, \(x_3\) is the final project, 
+                and \(x_4\) is the student's responsibility and professional conduct. 
+                The model \(h\) shall predict (grade) student's performance in this course as follows:</p>
+                <table style="table-layout: auto; width: auto; padding-top: 0;">
+                <thead>
+                    <tr><th id="schedule">Grade</th><th id="schedule">Marks (%)</th><th>Interpretation</th><th id="schedule">Grade Point</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td id="schedule">A</td><td id="schedule">80 - 100</td><td>Excellent</td><td id="schedule">4.00</td></tr>
+                    <tr><td id="schedule">B+</td><td id="schedule">70 - 79</td><td>Very Good</td><td id="schedule">3.50</td></tr>
+                    <tr><td id="schedule">B</td><td id="schedule">60 - 69</td><td>Good</td><td id="schedule">3.00</td></tr>
+                    <tr><td id="schedule">C</td><td id="schedule">50 - 59</td><td>Pass</td><td id="schedule">2.00</td></tr>
+                    <tr><td id="schedule">D</td><td id="schedule">30 - 49</td><td>Fail</td><td id="schedule">1.50</td></tr>
+                    <tr><td id="schedule">F</td><td id="schedule">0 - 29</td><td>Pass</td><td id="schedule">1.00</td></tr>
+                </tbody>
+                </table>
+                <hr>
+            </div>
+        </div>
+        
+        <div class="">
+            <div class="">
+                <h4>Academic Honesty, Collaboration, AI Tools Usage</h4>
+                <p class="text-justify" style="margin-bottom: 0px;">
+                UG students and faculty are expected to uphold the highest standards of academic honesty. Students can find information on the core principles and 
+                standards in the University's policy on academic integrity, which is accessible at the
+                <a href="https://www.ug.edu.gh/pad/sites/pad/files/2024-07/PLAGIARISM%20POLICY.pdf" target="_blank">University of Ghana Plagiarism Policy</a>.
+                Plagiarism includes, but not limited to:</p>
+                <ul>
+                    <li>copying of code or text with none or minimal reformatting (e.g., just changing variable names);</li>
+                    <li>just translating an algorithm or a script from one language to another; and</li>
+                    <li>reproducing (copying and pasting) code or text generated by an automatic code/text generation tool.</li>
+                </ul>
+                <p class="text-justify">
+                Students must ensure that full acknowledgement (citation) is given to the authors of any source code or text that is reused. Students' works may be 
+                checked using similarity-detection software. <strong>At a minimum, violating the plagiarism policy and examination rules will result in a grade of 0 for a 
+                particular assignment/quiz. Repeated violations may be referred to Academic Affairs for a more severe penalty</strong>.
+                </p>
+                <p class="text-justify">
+                This class offers a collaborative learning experience. Students are expected to discuss ideas with their peers but should write their own solutions 
+                independently, without referencing solutions from other students. This encourages students to work independently while sharing ideas on how to test 
+                their implementation and evaluate their own work, rather than claiming other students' work as their own, which is a crucial part of integrity in 
+                their future careers. Sharing your solutions with another student breaches the University's examination rules. Therefore, students should not make 
+                their assignment solutions publicly available, such as posting them on social networks or a public git repository (the final project work can 
+                be hosted on a public git repository after submission).
+                </p>
+                <p class="text-justify">
+                Students are permitted to use generative AI tools, such as Gemini, GPT-4, and Co-Pilot, in a manner that is considered acceptable as human collaboration. 
+                You are not allowed to ask for solutions or copy code directly, and you should indicate when a generative AI tool is used. Like human collaboration 
+                assistance, students are ultimately responsible and accountable for their own work.
+                </p>
+                <hr>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <h4>Additional Reference Materials</h4>
+                <p class="text-justify" style="margin-bottom: 0px;">
+                The following texts also provide helpful information:
+                <ul>
+                    <li><a href="https://docs.python.org/3/index.html">Python documentation</a></li>
+                    <li><a href="https://greenteapress.com/wp/think-python/">Think Python: How to Think Like a Computer Scientist</a></li>
+                    <li><a href="https://jakevdp.github.io/WhirlwindTourOfPython/index.html">A Whirlwind Tour of Python</a></li>
+                    <li><a href="https://github.com/jakevdp/PythonDataScienceHandbook">Python Data Science Handbook</a></li>
+                    <li><a href="https://www.kaggle.com/learn/python">Kaggle Learn Python Tutorials</a></li>
+                </ul> 
+                </p> 
+                <hr>
+            </div>
+        </div>
+
+        <!-- <div class="">
+            <div class="">
+                <h4>Academic honesty</h4>
+                <p class="text-justify">
+                UG students and faculty are expected to uphold the highest standards of academic honesty. Students can find information 
+                on the core principles and standards in the University's policy on academic integrity, which is accessible at 
+                <a href="https://www.ug.edu.gh/pad/sites/pad/files/2024-07/PLAGIARISM%20POLICY.pdf" target="_blank">the University of Ghana Plagiarism Policy</a>
+                </p> 
+                <hr>
+            </div>
+        </div> -->
+
+        <div style="margin-bottom:110px;"></div>
+        <div class="">
+            <div class="">
+                <hr style="padding: 0; margin: 0;">
+                <p class="text-right" style="padding: 0; margin: 0; font-size: 12px;">Website by CBB</p>
+                <hr style="padding: 0; margin: 0;">
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+</body>
+</html>
