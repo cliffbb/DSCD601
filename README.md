@@ -1,1 +1,1 @@
-# DSCD 601: Programming for Data Scientists I
+# DSCD 611: Programming for Data Scientists I
